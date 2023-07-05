@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("p").hide("slow", function () {
+            alert("The paragraph is now hidden");
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button>hide</button>
+    <p>This is Paragraph With little content.</p>
+  </body>
+</html>
